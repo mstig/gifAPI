@@ -4,6 +4,7 @@
 
 .navbar{
     color: white;
+    margin-bottom: 2rem;
 }
 
 .navbar-brand {
@@ -11,7 +12,7 @@
 }
 
 button {
-    margin-right: 5px;
+    margin: .25rem;
 }
 
 .container {
