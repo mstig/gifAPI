@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar{
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+button {
+    margin-right: 5px;
+}
+
+.container {
+    margin: auto;
+}
