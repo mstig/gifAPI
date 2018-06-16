@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 .navbar{
@@ -17,4 +17,20 @@ button {
 
 .container {
     margin: auto;
+}
+
+.gif-div {
+    margin-bottom: .25rem;
+    border: 1px solid darkgray;
+}
+
+#gif-show{
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    background-image: url("../bgimg.png");
+    background-size: auto;
+    font-family: 'Philosopher', serif;
 }
