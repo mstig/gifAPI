@@ -15,9 +15,9 @@ $(document).ready(function () {
     renderButtons();
 
     //takes API results and breaks up into 10 gifs
-    //ajaxIndex is used as the offset in case more gifs of same type are called
+    //ajaxIndex is used as the offset in case more gifs of same type are called, starts at 0
     function renderGifs(results) {
-        for (i = 0 + ajaxIndex; i < ajaxIndex + 10; i++) {
+        for (i = ajaxIndex; i < ajaxIndex + 10; i++) {
             var newGif = $("<div class='gif-div col-xs-12 col-s-3'>").appendTo($("#gif-show"));
             var stillFrame = results[i].images.fixed_height_still.url;
             var animateFrame = results[i].images.fixed_height.url;
